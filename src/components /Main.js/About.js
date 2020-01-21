@@ -8,10 +8,12 @@ export default function AboutPage() {
         <Card id="AboutCard">
             <CardBody id="AboutCardBody">
                 <CardTitle>About</CardTitle>
+                <br></br>
                 <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+                <br></br>
                 <p>Born in Indianapolis, Indiana on July 21st, 1994
                     <br></br>
-                    I am a software engineer student as Kenzie Academy
+                    I am a software engineer student at Kenzie Academy
                     <br></br>
                     I have been learning how to program since 2019
                 </p>

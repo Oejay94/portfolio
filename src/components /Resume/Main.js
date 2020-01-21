@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import About from "./About";
-import Jobs from "./Jobs";
-import Pic from "./Pic";
-import Nav from "../Nav"
+import Nav from "../Nav";
+import ProgLang from "./ProgLang";
+import Projects from "./Projects";
+import Work from "./Work"
+import Education from "./Education";
 import { Card, CardBody } from "shards-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 
-class Main extends Component {
+class Resume extends Component {
   render() {
     return (
       <React.Fragment>
@@ -15,7 +16,6 @@ class Main extends Component {
           <Card>
             <CardBody>
               <h1 align="center">Joseph Brown</h1>
-              <Pic align="center"></Pic>
               <hr></hr>
               <p align="center">
                 Email: joseph.d.brown94@gmail.com
@@ -35,14 +35,19 @@ class Main extends Component {
           </Card>
         </header>
         <Nav></Nav>
-        <br></br>
-        <div id="bodystyle">
-          <About></About>
-          <Jobs></Jobs>
+        <div id="wholeThang">
+          <div id="column1">
+            <Education></Education>
+            <Work></Work>
+            <Projects></Projects>
+          </div>
+          <div id="column2">
+            <ProgLang></ProgLang>
+          </div>
         </div>
       </React.Fragment>
     );
   }
 }
 
-export default Main;
+export default Resume

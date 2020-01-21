@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardBody } from "shards-react";
+// import personalpic from ".../personalpic.jpeg"
 
 export default function PicPage() {
   return (
@@ -14,7 +15,8 @@ export default function PicPage() {
         }}
       >
         <img
-          src="DSC_0132.jpeg"
+          src={"personalpic.jpeg"}
+          alt="Pic"
           style={{ width: "300px", margin: "auto", borderRadius: "25px" }}
         />
       </CardBody>

@@ -3,7 +3,6 @@ import {
   Navbar,
   NavbarToggler,
   Nav,
-  NavItem,
   NavLink,
   Collapse
 } from "shards-react";
@@ -12,8 +11,8 @@ export default class NavPage extends React.Component {
   constructor(props) {
     super(props);
 
-    this.Dropdown = this.Dropdown.bind(this);
-    this.NavBar = this.NavBar.bind(this);
+    this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
 
     this.state = {
       dropdownOpen: false,
@@ -21,7 +20,7 @@ export default class NavPage extends React.Component {
     };
   }
 
-  Dropdown() {
+  toggleDropdown() {
     this.setState({
       ...this.state,
       ...{
@@ -30,7 +29,7 @@ export default class NavPage extends React.Component {
     });
   }
 
-  NavBar() {
+  toggleNavbar() {
     this.setState({
       ...this.state,
       ...{
@@ -42,7 +41,7 @@ export default class NavPage extends React.Component {
   render() {
     return (
       <Navbar type="dark" expand="md" id="navShape">
-        <NavbarToggler onClick={this.NavBar} />
+        <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar id="navStyle">
           <Nav navbar>
