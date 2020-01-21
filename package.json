@@ -1,5 +1,6 @@
 {
   "name": "personal-website",
+  "homepage": "https://oejay94.github.io/personal-website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
