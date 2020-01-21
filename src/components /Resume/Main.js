@@ -15,6 +15,7 @@ class Resume extends Component {
         <header>
           <Card>
             <CardBody>
+              <Nav></Nav>
               <h1 align="center">Joseph Brown</h1>
               <hr></hr>
               <p align="center">
@@ -34,7 +35,6 @@ class Resume extends Component {
             </CardBody>
           </Card>
         </header>
-        <Nav></Nav>
         <div id="wholeThang">
           <div id="column1">
             <Education></Education>

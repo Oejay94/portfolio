@@ -14,6 +14,7 @@ class Main extends Component {
         <header>
           <Card>
             <CardBody>
+            <Nav></Nav>
               <h1 align="center">Joseph Brown</h1>
               <Pic align="center"></Pic>
               <hr></hr>
@@ -34,7 +35,6 @@ class Main extends Component {
             </CardBody>
           </Card>
         </header>
-        <Nav></Nav>
         <br></br>
         <div id="bodystyle">
           <About></About>

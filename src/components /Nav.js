@@ -2,12 +2,18 @@ import React from "react";
 import {
   Navbar,
   NavbarToggler,
+  NavbarBrand,
   Nav,
+  NavItem,
   NavLink,
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
   Collapse
 } from "shards-react";
 
-export default class NavPage extends React.Component {
+export default class NavBarPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -40,20 +46,22 @@ export default class NavPage extends React.Component {
 
   render() {
     return (
-      <Navbar type="dark" expand="md" id="navShape">
+      <Navbar type="dark" theme="dark" expand="md">
+        <NavbarBrand href="#">Personal Portfolio</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 
-        <Collapse open={this.state.collapseOpen} navbar id="navStyle">
+        <Collapse open={this.state.collapseOpen} navbar>
           <Nav navbar>
-            <NavLink active href="/">
-              Main
-            </NavLink>
-            <NavLink active href="/resume">
-              Resume
-            </NavLink>
-            <NavLink active href="/contact">
-              Contact
-            </NavLink>
+            <NavItem>
+              <NavLink active href="/">
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink active href="/resume">
+                Resume
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
