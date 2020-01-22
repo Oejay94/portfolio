@@ -7,7 +7,9 @@ export default function WorkPage() {
   return (
     <Card className="WorkCard">
       <CardBody className="WordCardBody">
-        <CardTitle><h3>Work</h3></CardTitle>
+        <CardTitle>
+          <h3>Work</h3>
+        </CardTitle>
         <br></br>
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>
@@ -39,6 +41,99 @@ export default function WorkPage() {
             <li>
               Wokred in various trailer to load packages within said trailers in
               order to get the packages to their destination
+            </li>
+          </ul>
+        </p>
+        <p>
+          <strong>Alimar Security Supervisor/Guard</strong>
+          <br></br>
+          Indinanapolis | Sep 2017-Jan 2019, Sep 2015-Dec 2016
+          <ui>
+            <li>
+              Provide outsourced security services for Fortune 500 companies
+              including CVS and Genuine Parts (NAPA)
+            </li>
+            <li>
+              Work 4-8 hour shifts providing visual presence to deter theft
+            </li>
+            <li>
+              Ensure adherence to Alimar and Alimar’s customer policies and
+              procedures
+            </li>
+            <li>
+              Support customer requirements by providing customer service on an
+              as-needed basis
+            </li>
+            <li>
+              Handled over 50 escalations and incidents independently or in
+              collaboration with store management. Approximately 25 escalations
+              required police assistance due to the nature of the incident and
+              location of the stores
+            </li>
+            <li>
+              Provided armed services approximately 25% of tenure during night
+              shifts and in a supervisory role
+            </li>
+            <li>
+              As a Supervisor, provided oversight and management for 12-16
+              security guard employees across 16 customer sites.
+            </li>
+            <li>
+              Performed site checks across multiples sites to oversee employees,
+              planned and ensured shift coverage, filled in to ensure shift
+              coverage when needed, provided employee management support and
+              On-Call 24x7
+            </li>
+          </ui>
+        </p>
+        <p>
+          <strong>CVS Supervisor</strong>
+          <br></br>
+          Indinanapolis | Jan 2017-Sept 2017
+          <ui>
+            <li>
+              Daily supervision of 4 team members and responsible for 7 team
+              members
+            </li>
+            <li>
+              Supervised the store’s crew through assigning, directing and
+              following up of all activities
+            </li>
+            <li>
+              Handled all customer relations issues in accordance with company
+              policy
+            </li>
+            <li>Handled incoming customer calls as the manager on-duty</li>
+            <li>
+              Effectively communicated information both to and from store
+              management and crews
+            </li>
+            <li>
+              Promoted a positive shopping experience for all CVS customers by
+              promoting CVS customer service culture. (Greet, offer help, and
+              thank)
+            </li>
+            <li>
+              Provided storewide vendor management and stocking management
+            </li>
+            <li>
+              Worked with on-site security personnel to manage potential
+              security incidents
+            </li>
+            <li>Responsible for managing cash and accounting</li>
+          </ui>
+        </p>
+        <p>
+          <strong>Part and Full-Time Roles Concurrent with Military</strong>
+          <br></br>
+          Indinanapolis | Sept 2013-Sept 2015
+          <ul>
+            <li>
+              Logistics - Full and part-time roles logistics/warehouse roles
+              picking and packing
+            </li>
+            <li>
+              Papa John’s Pizza Delivery - Evening and weekend pizza delivery
             </li>
           </ul>
         </p>

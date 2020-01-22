@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import About from "./About";
 import Jobs from "./Jobs";
 import Nav from "../Nav";
-import { Image, Header, Divider, Card } from "semantic-ui-react";
+import Footer from "../Footer"
+import { Image, Header, Divider, Card, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Main extends Component {
@@ -30,6 +31,7 @@ class Main extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <Icon name='github' color='black' />
               Github Page
             </a>
             <br></br>
@@ -39,21 +41,21 @@ class Main extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <Icon name='linkedin' color='black' />
               Linkedin Page
             </a>
           </p>
           <br></br>
         </Header>
         <Card.Group className="MainCardGroup">
-          <div id="column1">
             <Card fluid className="AboutCard">
               <About></About>
             </Card>
             <Card fluid className="JobsCard">
               <Jobs></Jobs>
             </Card>
-          </div>
         </Card.Group>
+        <Footer></Footer>
       </React.Fragment>
     );
   }

@@ -26,6 +26,11 @@ export default function EducationPage() {
           <br></br>
           Kenzie Academy | 04/2020
         </p>
+        <p>
+          <b>Salesforce Buisness Admin Certification</b>
+          <br></br>
+          Salesforce | Currently Working on obtaining
+        </p>
       </CardBody>
     </Card>
   );

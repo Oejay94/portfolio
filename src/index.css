@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .JobsCard {
+  position: relative;
+  left: 860px;
+  top: -230px;
+} */
+
+.ContactGrid {
+  position: relative;
+  left: 150px;
+}
+
+.SocialMediaGrid {
+  position: relative;
+  left: 210px;
+}

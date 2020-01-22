@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <Card>
       <CardBody>
-        <CardTitle>About</CardTitle>
+        <CardTitle><h3>About</h3></CardTitle>
         <br></br>
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>

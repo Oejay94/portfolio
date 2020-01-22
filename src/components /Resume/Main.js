@@ -4,7 +4,9 @@ import ProgLang from "./ProgLang";
 import Projects from "./Projects";
 import Work from "./Work";
 import Education from "./Education";
-import { Card, Image, Header, Divider } from "semantic-ui-react";
+import Tech from "./Tech";
+import Footer from "../Footer"
+import { Card, Image, Header, Divider, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Resume extends Component {
@@ -32,6 +34,7 @@ class Resume extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <Icon name='github' color='black' />
                   Github Page
                 </a>
                 <br></br>
@@ -41,6 +44,7 @@ class Resume extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <Icon name='linkedin' color='black' />
                   Linkedin Page
                 </a>
               </p>
@@ -58,7 +62,11 @@ class Resume extends Component {
               <Card fluid className="ProgLangCard">
                 <ProgLang></ProgLang>
               </Card>
+              <Card fluid className="TechCard">
+                <Tech></Tech>
+              </Card>
           </Card.Group>
+          <Footer></Footer>
       </React.Fragment>
     );
   }

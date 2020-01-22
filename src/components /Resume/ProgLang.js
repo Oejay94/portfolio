@@ -6,7 +6,7 @@ import "shards-ui/dist/css/shards.min.css";
 export default function ProgLangPage() {
     return (
         <Card className="ProgCard">
-            <CardBody className="ProgCardBody">
+            <CardBody>
                 <CardTitle><h3>Programming Languages</h3></CardTitle>
                 <br></br>
                 <CardSubtitle>Last Updated: January 2020</CardSubtitle>
@@ -16,8 +16,8 @@ export default function ProgLangPage() {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
-                        <li>React/Redux</li>
                         <li>Python</li>
+                        <li>Django</li>
                     </ul>
                 </p>
             </CardBody>
