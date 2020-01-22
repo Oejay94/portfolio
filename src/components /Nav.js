@@ -42,18 +42,18 @@ export default class NavBarPage extends React.Component {
 
   render() {
     return (
-      <Navbar type="dark" theme="dark" expand="md">
+      <Navbar type="dark" theme='secondary' expand='md'>
         <NavbarBrand href="#">Personal Portfolio</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar>
           <Nav navbar>
-            <NavItem>
+            <NavItem className="NavHome">
               <NavLink active href="/">
                 Home
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="NavResume">
               <NavLink active href="/resume">
                 Resume
               </NavLink>

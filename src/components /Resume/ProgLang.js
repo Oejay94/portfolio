@@ -7,7 +7,7 @@ export default function ProgLangPage() {
     return (
         <Card className="ProgCard">
             <CardBody className="ProgCardBody">
-                <CardTitle>Languages</CardTitle>
+                <CardTitle><h3>Programming Languages</h3></CardTitle>
                 <br></br>
                 <CardSubtitle>Last Updated: January 2020</CardSubtitle>
                 <br></br>

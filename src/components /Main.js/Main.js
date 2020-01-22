@@ -1,45 +1,59 @@
 import React, { Component } from "react";
 import About from "./About";
 import Jobs from "./Jobs";
-import Pic from "./Pic";
-import Nav from "../Nav"
-import { Card, CardBody } from "shards-react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "shards-ui/dist/css/shards.min.css";
+import Nav from "../Nav";
+import { Image, Header, Divider, Card } from "semantic-ui-react";
+import "semantic-ui-css/semantic.min.css";
 
 class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>
-          <Card>
-            <CardBody>
-            <Nav></Nav>
-              <h1 align="center">Joseph Brown</h1>
-              <Pic align="center"></Pic>
-              <hr></hr>
-              <p align="center">
-                Email: joseph.d.brown94@gmail.com
-                <br></br>
-                <a className="link" href="https://github.com/Oejay94">
-                  Github Page
-                </a>
-                <br></br>
-                <a
-                  className="link"
-                  href="https://www.linkedin.com/in/joseph-brown-8a9312166/"
-                >
-                  Linkedin Page
-                </a>
-              </p>
-            </CardBody>
-          </Card>
-        </header>
-        <br></br>
-        <div id="bodystyle">
-          <About></About>
-          <Jobs></Jobs>
-        </div>
+        <Header>
+          <Nav></Nav>
+          <Divider horizontal>
+            <h2>Joseph Brown</h2>
+          </Divider>
+          <Image
+            src={require("../images/DSC_0132.jpeg")}
+            style={{ display: "block", margin: "0 auto", width: "30%" }}
+          />
+          <p align="center">
+            Email:{" "}
+            <a href="mailto:joseph.d.brown94@gmail.com">
+              joseph.d.brown94@gmail.com{" "}
+            </a>
+            <br></br>
+            <a
+              className="link"
+              href="https://github.com/Oejay94"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github Page
+            </a>
+            <br></br>
+            <a
+              className="link"
+              href="https://www.linkedin.com/in/joseph-brown-8a9312166/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin Page
+            </a>
+          </p>
+          <br></br>
+        </Header>
+        <Card.Group className="MainCardGroup">
+          <div id="column1">
+            <Card fluid className="AboutCard">
+              <About></About>
+            </Card>
+            <Card fluid className="JobsCard">
+              <Jobs></Jobs>
+            </Card>
+          </div>
+        </Card.Group>
       </React.Fragment>
     );
   }

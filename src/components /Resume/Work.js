@@ -7,7 +7,7 @@ export default function WorkPage() {
   return (
     <Card className="WorkCard">
       <CardBody className="WordCardBody">
-        <CardTitle>Work</CardTitle>
+        <CardTitle><h3>Work</h3></CardTitle>
         <br></br>
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>
@@ -25,7 +25,6 @@ export default function WorkPage() {
               requirements for the assessments with readable code.
             </li>
             <li>
-              {" "}
               Wokred both with in person and remote students with the same level
               of insctructions.
             </li>

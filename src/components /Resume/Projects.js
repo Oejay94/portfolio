@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     return (
         <Card className="ProjectsCard">
             <CardBody className="ProjectsCardBody">
-                <CardTitle>Projects</CardTitle>
+                <CardTitle><h3>Projects</h3></CardTitle>
                 <br></br>
                 <CardSubtitle>Last Updates: January 2020</CardSubtitle>
                 <br></br>
