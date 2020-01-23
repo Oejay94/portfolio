@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import About from "./About";
 import Jobs from "./Jobs";
 import Nav from "../Nav";
-import Footer from "../Footer"
+import Footer from "../Footer";
+import Carousel from "../Carousel"
 import { Image, Header, Divider, Card, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
@@ -15,15 +16,8 @@ class Main extends Component {
           <Divider horizontal>
             <h2>Joseph Brown</h2>
           </Divider>
-          <Image
-            src={require("../images/DSC_0132.jpeg")}
-            style={{ display: "block", margin: "0 auto", width: "30%" }}
-          />
+          <Carousel></Carousel>
           <p align="center">
-            Email:{" "}
-            <a href="mailto:joseph.d.brown94@gmail.com">
-              joseph.d.brown94@gmail.com{" "}
-            </a>
             <br></br>
             <a
               className="link"
