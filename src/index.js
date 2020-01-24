@@ -2,18 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from "react-redux";
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from "react-router-dom"
 import App from './App';
 import './index.css';
-import configureStore, { history } from "./configureStore";
-import { ConnectedRouter } from "connected-react-router";
+import configureStore from "./configureStore";
+
 
 const store = configureStore({})
 
 ReactDOM.render(
     <Provider store={store}>
-        <ConnectedRouter history={history}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <App />
-        </ConnectedRouter>
+        </BrowserRouter>
     </Provider>,
 
     document.getElementById("root")
