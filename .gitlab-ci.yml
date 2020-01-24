@@ -10,6 +10,4 @@ pages:
     paths:
     - public
   only:
-  - master
-  variables:
-    PUBLIC_URL: "" 
+  - master 
