@@ -4,7 +4,7 @@ import Jobs from "./Jobs";
 import Nav from "../Nav";
 import Footer from "../Footer";
 import Carousel from "../Carousel"
-import { Image, Header, Divider, Card, Icon } from "semantic-ui-react";
+import { Header, Divider, Icon, Card } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Main extends Component {

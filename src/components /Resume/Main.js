@@ -7,7 +7,7 @@ import Education from "./Education";
 import Tech from "./Tech";
 import Footer from "../Footer";
 import Carousel from "../Carousel"
-import { Card, Image, Header, Divider, Icon } from "semantic-ui-react";
+import { Card, Header, Divider, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Resume extends Component {
