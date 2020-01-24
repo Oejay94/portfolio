@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path="https://oejay94.gitlab.io/personal-website/" component={Main} />
+        <Route exact path="https://oejay94.gitlab.io/persoanl-website/resume" component={Resume} />
       </React.Fragment>
     );
   }
