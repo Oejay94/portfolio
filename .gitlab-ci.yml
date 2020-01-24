@@ -12,4 +12,4 @@ pages:
   only:
   - master
   variables:
-    PUBLIC_URL: "/personal-webstite" 
+    PUBLIC_URL: "/personal-website" 
