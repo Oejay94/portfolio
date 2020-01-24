@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path={"/"} render={() => <Main />} />
+        <Route exact path={"/resume"} render={() => <Resume />} />
       </React.Fragment>
     );
   }
