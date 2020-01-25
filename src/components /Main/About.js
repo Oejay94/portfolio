@@ -7,14 +7,20 @@ export default function AboutPage() {
   return (
     <Card>
       <CardBody>
-        <CardTitle><h3>About</h3></CardTitle>
+        <CardTitle><h3>About Me!</h3></CardTitle>
         <br></br>
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>
         <p>
-          Born in Indianapolis, Indiana on July 21st, 1994
-          <br></br>I am a software engineer student at Kenzie Academy
-          <br></br>I have been learning how to program since 2019
+          My name is Joseph, but I go by Joey.
+          I'm a certified Front End Developer
+          <br></br> and I'm working towards becoming a
+          Full Stack Developer thanks to Kenzie Academy.
+          <br></br> While I've definetly enjoyed my time at Kenzie,
+          I believe that I am ready to begin my career
+          <br></br> as a Software Engineer in the work force.
+          Be sure to check out the resume section of my website
+          <br></br> to see all the Kenzie Academy has taught me.
         </p>
         <p>
           Some of the things I do in my spare time is reading, gaming, playing

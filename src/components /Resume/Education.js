@@ -19,17 +19,17 @@ export default function EducationPage() {
         <p>
           <b>Back-End Development Certification</b>
           <br></br>
-          Kenzie Academy | 04/2020
+          Kenzie Academy | 04/2020 *Currently Obtaining*
         </p>
         <p>
           <b>Full Stack Developer Certification</b>
           <br></br>
-          Kenzie Academy | 04/2020
+          Kenzie Academy | 04/2020 *Currently Obtaining*
         </p>
         <p>
           <b>Salesforce Buisness Admin Certification</b>
           <br></br>
-          Salesforce | Currently Working on obtaining
+          Salesforce | *Currently Obtaining*
         </p>
       </CardBody>
     </Card>
