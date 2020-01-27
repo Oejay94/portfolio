@@ -42,7 +42,7 @@ export default class NavBarPage extends React.Component {
 
   render() {
     return (
-      <Navbar type='dark' theme='secondary' expand='md'>
+      <Navbar type="dark" theme="secondary" expand="md">
         <NavbarBrand href="#">Personal Portfolio</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 

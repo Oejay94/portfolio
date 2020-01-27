@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Portfolio Project!
 
-## Available Scripts
+This is a portfolio website that I created using React, Redux, Semantic Ui, and Shards React. It tells you about myself as well as my work history. Enjoy!
 
-In the project directory, you can run:
+### Began on Github
 
-### `yarn start`
+This project began on github where most of the work was pushed to since this was this site, as well as Gitlab, were used during my time
+at Kenzie Academy. However, Github was used more during my studies of Back End programming so I was not accustomed to using GH-Pages and
+getting a website link created for others to see. After many attempts I could not get the site link to pull up anything aside from this
+README.md page so I decided to move the repository over to Gitlab.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Even more issues with Gitlab
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Since Gitlab was used during my Front End studies, I was use to deploying a site to Gitlab with a link that leads to my finished project. However, I had never used it for a project that contained multiple pages. The projects that were submitted to Gitlab were single page projects. Again, after many trails and errors, I could not get the link to display the Resume Page of my portfolio. Frustrated and ready for the world to see my portfolio, I turned to the one thing I knew would work, Heroku.
 
-### `yarn test`
+### Finally Deployed with Heroku!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Heroku is a deploying site that my team(s) and I have used to deploy our bigger projects such as our Kwitter Project and our capstone projects, see the Rusume Page of my portfolio for more info about them. I was finally able to deploy my project in its entierty to Heroku and now everything runs the way it should. I'm aware that attempting to deploy to three different sites is a little strange however I believe that this shows a sneak of my problem solving skills.

@@ -7,7 +7,9 @@ export default function EducationPage() {
   return (
     <Card className="EducationCard">
       <CardBody className="EducationBody">
-        <CardTitle><h3>Education</h3></CardTitle>
+        <CardTitle>
+          <h3>Education</h3>
+        </CardTitle>
         <br></br>
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>

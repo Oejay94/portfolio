@@ -3,11 +3,11 @@ import About from "./About";
 import Jobs from "./Jobs";
 import Nav from "../Nav";
 import Footer from "../Footer";
-import Carousel from "../Carousel"
+import Carousel from "../Carousel";
 import { Header, Divider, Icon, Card } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
-class Main extends Component {
+class Home extends Component {
   render() {
     return (
       <React.Fragment>
@@ -25,7 +25,7 @@ class Main extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon name='github' color='black' />
+              <Icon name="github" color="black" />
               Github Page
             </a>
             <br></br>
@@ -35,19 +35,19 @@ class Main extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon name='linkedin' color='black' />
+              <Icon name="linkedin" color="black" />
               Linkedin Page
             </a>
           </p>
           <br></br>
         </Header>
         <Card.Group className="MainCardGroup">
-            <Card fluid className="AboutCard">
-              <About></About>
-            </Card>
-            <Card fluid className="JobsCard">
-              <Jobs></Jobs>
-            </Card>
+          <Card fluid className="AboutCard">
+            <About></About>
+          </Card>
+          <Card fluid className="JobsCard">
+            <Jobs></Jobs>
+          </Card>
         </Card.Group>
         <Footer></Footer>
       </React.Fragment>
@@ -55,4 +55,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Home;

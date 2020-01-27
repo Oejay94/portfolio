@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  Image
-} from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide, Image } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 export default class Carousel extends React.Component {
@@ -13,8 +8,8 @@ export default class Carousel extends React.Component {
       <CarouselProvider
         naturalSlideWidth={45}
         naturalSlideHeight={13}
-        totalSlides={7}
-        isPlaying='true'
+        totalSlides={8}
+        isPlaying="true"
         interval={3000}
       >
         <Slider>
@@ -32,30 +27,36 @@ export default class Carousel extends React.Component {
           </Slide>
           <Slide index={2}>
             <Image
+            src={require("./images/Siblings2.jpeg")}
+            style={{ display: "block", margin: "0 auto", width: "30%" }}
+            />
+          </Slide>
+          <Slide index={3}>
+            <Image
               src={require("./images/Fishing.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "20%" }}
             />
           </Slide>
-          <Slide index={3}>
+          <Slide index={4}>
             <Image
               src={require("./images/DadsFamily.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
           </Slide>
-          <Slide index={4}>
+          <Slide index={5}>
             <Image
               src={require("./images/Siblings.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
           </Slide>
-          <Slide index={5}>
+          <Slide index={6}>
             <Image
               src={require("./images/FEGraduationDaniel.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "20%" }}
             />
           </Slide>
-          <Slide index={6}>
-            <Image 
+          <Slide index={7}>
+            <Image
               src={require("./images/FEGraduationChoc.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "20%" }}
             />
