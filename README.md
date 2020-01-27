@@ -4,7 +4,7 @@ This is a portfolio website that I created using React, Redux, Semantic Ui, and 
 
 ### Began on Github
 
-This project began on github where most of the work was pushed to since this was this site, as well as Gitlab, were used during my time
+This project began on Github where most of the work was pushed to since this was this site, as well as Gitlab, were used during my time
 at Kenzie Academy. However, Github was used more during my studies of Back End programming so I was not accustomed to using GH-Pages and
 getting a website link created for others to see. After many attempts I could not get the site link to pull up anything aside from this
 README.md page so I decided to move the repository over to Gitlab.
@@ -15,4 +15,4 @@ Since Gitlab was used during my Front End studies, I was use to deploying a site
 
 ### Finally Deployed with Heroku!
 
-Heroku is a deploying site that my team(s) and I have used to deploy our bigger projects such as our Kwitter Project and our capstone projects, see the Rusume Page of my portfolio for more info about them. I was finally able to deploy my project in its entierty to Heroku and now everything runs the way it should. I'm aware that attempting to deploy to three different sites is a little strange however I believe that this shows a sneak of my problem solving skills.
+Heroku is a deploying site that my team(s) and I have used to deploy our bigger projects such as our Kwitter Project and our capstone projects, see the Resume Page of my portfolio for more info about them. I was finally able to deploy my project in its entirety to Heroku and now everything runs the way it should. I'm aware that attempting to deploy to three different sites is a little strange however I believe that this shows a sneak of my problem solving skills.
