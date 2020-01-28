@@ -5,7 +5,7 @@ import "semantic-ui-css/semantic.min.css";
 export default class Footer extends React.Component {
   render() {
     return (
-      <Grid columns="equal" divided inverted>
+      <Grid columns="equal" divided doubling inverted>
         <Grid.Column color="black" textAlign="center">
           <Header as="h4" inverted content="Reach Out!" />
           <p>
