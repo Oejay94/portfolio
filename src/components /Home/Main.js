@@ -49,10 +49,11 @@ class Home extends Component {
             <Jobs></Jobs>
           </Card>
         </Card.Group>
+        <br></br>
+        <br></br>
         <Footer></Footer>
       </React.Fragment>
     );
   }
 }
-
 export default Home;

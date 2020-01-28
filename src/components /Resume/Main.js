@@ -60,6 +60,8 @@ class Resume extends Component {
             <Tech></Tech>
           </Card>
         </Card.Group>
+        <br></br>
+        <br></br>
         <Footer></Footer>
       </React.Fragment>
     );
