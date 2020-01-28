@@ -36,7 +36,7 @@ export default function WorkPage() {
         <p>
           <strong>UPS Package Handler</strong>
           <br></br>
-          UPS Hub on 81st and Zionsville Rd, Indinanapolis | 10/2019
+          UPS Hub on 81st and Zionsville Rd, Indinanapolis | 10/2019-Present
           <ul>
             <li>
               Wokred in various trailer to load packages within said trailers in

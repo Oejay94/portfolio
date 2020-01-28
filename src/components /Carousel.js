@@ -16,7 +16,7 @@ export default class Carousel extends React.Component {
           <Slide index={0}>
             <Image
               src={require("./images/DSC_0132.jpeg")}
-              style={{ display: "block", margin: "0 auto", width: "30%" }}
+              style={{ display: "block", margin: "0 auto", width: "35%" }}
             />
           </Slide>
           <Slide index={1}>
