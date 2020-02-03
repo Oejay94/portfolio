@@ -31,7 +31,7 @@ export default function EducationPage() {
         <p>
           <b>Salesforce Buisness Admin Certification</b>
           <br></br>
-          Salesforce | *Currently Obtaining*
+          Salesforce | Online Portion Completed on 01/31/2020 | In Person Class Scheduled for 04/20-04/25 2020 | Exam Date TBD 
         </p>
       </CardBody>
     </Card>
