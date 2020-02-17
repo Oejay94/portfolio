@@ -11,27 +11,22 @@ export default function ProjectsPage() {
           <h3>Projects</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updates: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updates: February 2020</CardSubtitle>
         <br></br>
         <p>
-          Next Level Fitness | Group
+          Todo List (React) | Solo
           <br></br>
           <ul>
             <li>
-              The purpose of this project was to create a Fitness App that shows
-              the user workouts they can do/complete as well as using A
-              nutrition API that allows the user to select food they've eaten
-              and add it to their daily charts. These charts will display the
-              workouts/food consumed the user has preformed.
+              This is a rather simple todo list that was created using React
+              and Redux. A user can add items to do, click on the complete button,
+              clear all completed list items, and toggle between active and completed
+              items.
             </li>
-            <li>Improvements Needed:</li>
+            <li>Status: Completed</li>
+            <li><a href='https://todo-react-project.herokuapp.com'>Check out the finished project!</a></li>
           </ul>
         </p>
-        <p> Kwitter(Twitter Clone)</p>
-        <ul>
-          <li>Prupose</li>
-          <li>Improvements</li>
-        </ul>
       </CardBody>
     </Card>
   );
