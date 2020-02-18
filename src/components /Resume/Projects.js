@@ -14,7 +14,7 @@ export default function ProjectsPage() {
         <CardSubtitle>Last Updates: February 2020</CardSubtitle>
         <br></br>
         <p>
-          Todo List (React) | Solo
+        <a href='https://todo-react-project.herokuapp.com'>Todo List</a> (React) | Solo
           <br></br>
           <ul>
             <li>
@@ -24,7 +24,6 @@ export default function ProjectsPage() {
               items.
             </li>
             <li>Status: Completed</li>
-            <li><a href='https://todo-react-project.herokuapp.com'>Check out the finished project!</a></li>
           </ul>
         </p>
       </CardBody>
