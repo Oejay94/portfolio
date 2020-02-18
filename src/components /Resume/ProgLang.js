@@ -19,7 +19,6 @@ export default function ProgLangPage() {
             <li>CSS</li>
             <li>Javascript</li>
             <li>Python</li>
-            <li>Django</li>
           </ul>
         </p>
       </CardBody>

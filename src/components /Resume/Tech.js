@@ -18,11 +18,11 @@ export default function TechPage() {
             <li>Git</li>
             <li>Heroku</li>
             <li>Google Firebase</li>
-            <li>React</li>
-            <li>Redux</li>
+            <li>React JS Library</li>
+            <li>Redux Framework</li>
+            <li>Django Framework</li>
             <li>Semantic UI Rect</li>
             <li>Shards React</li>
-            <li>Express</li>
           </ul>
         </p>
       </CardBody>
