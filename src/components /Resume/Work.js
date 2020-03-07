@@ -24,13 +24,17 @@ export default function WorkPage() {
             </li>
             <li>
               Help guide students on best practices and techniques to accomplish
-              requirements for the assessments with readable code.
+              requirements for the assessments with clean and readable code.
             </li>
             <li>
               Wokred both with in person and remote students with the same level
-              of insctructions.
+              of insctructions and focus.
             </li>
-            <li> Graded assessments submitted by the students in the cohort</li>
+            <li>
+              {" "}
+              Graded assessments submitted by the students in the cohort based
+              on assessment requirements
+            </li>
           </ul>
         </p>
         <p>
@@ -39,12 +43,46 @@ export default function WorkPage() {
           UPS Hub on 81st and Zionsville Rd, Indinanapolis | 10/2019-Present
           <ul>
             <li>
-              Wokred in various trailer to load packages within said trailers in
+              Worked in various trailer to load packages within said trailers in
               order to get the packages to their destination
+            </li>
+            <li>
+              Ability to adapt and overcome unforseen obsticals during stressful
+              time and/or when high demands need to be met
             </li>
           </ul>
         </p>
         <p>
+          <strong>US Army Reserves 11B Infantry</strong>
+          <br></br>
+          Fort Benning, Georgia & Warsaw, Indiana | 09/2011-10/2016
+          <br />
+          <br />
+          Training Locations
+          <ul>
+            <li>
+              Basic Combat Training took place during the summer of 2012 at Fort
+              Benning, Georgia
+            </li>
+            <li>
+              Infantry School/Training tool place during the summer of 2013 at
+              Fort Benning, Georgia
+            </li>
+            <li>
+              Unit stationed mostly in Warsaw, Indiana with some training taking
+              place at Camp Atterbury
+            </li>
+          </ul>
+          Military Skills Highlight
+          <ul>
+            <li>Weapon saftey</li>
+            <li>Security clearance</li>
+            <li>Fair and precise judgement</li>
+            <li>Good critical thinking skills</li>
+            <li>Self descipline under stress</li>
+          </ul>
+        </p>
+        {/* <p>
           <strong>Alimar Security Supervisor/Guard</strong>
           <br></br>
           Indinanapolis | Sep 2017-Jan 2019, Sep 2015-Dec 2016
@@ -136,7 +174,7 @@ export default function WorkPage() {
               Papa John’s Pizza Delivery - Evening and weekend pizza delivery
             </li>
           </ul>
-        </p>
+        </p> */}
       </CardBody>
     </Card>
   );
