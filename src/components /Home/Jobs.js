@@ -14,8 +14,8 @@ export default function JobPage() {
         <CardSubtitle>Last Updated: January 2020</CardSubtitle>
         <br></br>
         <p>
-          <b>Position:</b> Front-End Developer, Full Stack Developer, Jr.
-          Developer, React Developer
+          <b>Position:</b> Front-End Developer, Back-End Developer, Full Stack Developer, Jr.
+          Developer, React Developer, Python Developer, Django Developer
           <br></br>
           <b>Hours:</b> Full Time
           <br></br>

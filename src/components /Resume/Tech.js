@@ -11,18 +11,20 @@ export default function TechPage() {
           <h3>Technologies</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: March 2020</CardSubtitle>
         <br></br>
         <p>
           <ul>
             <li>Git</li>
-            <li>Heroku</li>
-            <li>Google Firebase</li>
             <li>React JS Library</li>
             <li>Redux Framework</li>
             <li>Django Framework</li>
+            <li>PostgreSQL</li>
+            <li>Google Firebase</li>
+            <li>Bootstrap 4</li>
             <li>Semantic UI Rect</li>
             <li>Shards React</li>
+            <li>Heroku</li>
           </ul>
         </p>
       </CardBody>
