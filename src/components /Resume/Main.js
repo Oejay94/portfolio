@@ -34,7 +34,7 @@ class Resume extends Component {
             <br></br>
             <a
               className="link"
-              href="https://www.linkedin.com/in/joseph-brown-8a9312166/"
+              href="https://www.linkedin.com/in/joseph-d-brown/"
               target="_blank"
               rel="noopener noreferrer"
             >
