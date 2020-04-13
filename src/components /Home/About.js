@@ -18,7 +18,7 @@ export default function AboutPage() {
           Developer
           <br></br> and I'm working towards becoming a Full Stack Developer
           thanks to Kenzie Academy.
-          <br></br> While I've definetly enjoyed my time at Kenzie, I believe
+          <br></br> While I have definitely enjoyed my time at Kenzie, I believe
           that I am ready to begin my career
           <br></br> as a Software Engineer in the work force. Be sure to check
           out the resume section of my website

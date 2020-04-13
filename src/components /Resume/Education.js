@@ -29,7 +29,7 @@ export default function EducationPage() {
           Kenzie Academy | 04/2020 *Currently Obtaining*
         </p>
         <p>
-          <b>Salesforce Buisness Admin Certification</b>
+          <b>Salesforce Business Admin Certification</b>
           <br></br>
           Salesforce | Online Portion Completed on 01/31/2020 | In Person Class Scheduled for 04/20-04/25 2020 | Exam Date TBD 
         </p>

@@ -16,38 +16,34 @@ export default function WorkPage() {
         <p>
           <strong>Coaching</strong>
           <br></br>
-          Kenzie Academy | Indinanapolis | 06/2019-Present
+          Kenzie Academy | Indianapolis | 06/2019-Present
           <ul>
             <li>
-              Mentor students of newest cohorts on understanding the material in
-              the school curriculm.
+            Mentor students of newest cohorts on understanding the material in the school curriculum.
             </li>
             <li>
-              Help guide students on best practices and techniques to accomplish
-              requirements for the assessments with clean and readable code.
+            Help guide students on best practices and techniques to accomplish requirements for the assessments with clean and readable code.
             </li>
             <li>
-              Wokred both with in person and remote students with the same level
-              of insctructions and focus.
+            Worked both with in person and remote students with the same level of instructions and focus.
             </li>
             <li>
               {" "}
-              Graded assessments submitted by the students in the cohort based
-              on assessment requirements
+              Graded assessments submitted by the students in the cohort based on assessment requirements
             </li>
           </ul>
         </p>
         <p>
           <strong>UPS Package Handler</strong>
           <br></br>
-          UPS Hub on 81st and Zionsville Rd, Indinanapolis | 10/2019-Present
+          UPS Hub on 81st and Zionsville Rd, Indianapolis | 10/2019-Present
           <ul>
             <li>
               Worked in various trailer to load packages within said trailers in
               order to get the packages to their destination
             </li>
             <li>
-              Ability to adapt and overcome unforseen obsticals during stressful
+              Ability to adapt and overcome unforeseen obstacles during stressful
               time and/or when high demands need to be met
             </li>
           </ul>
@@ -75,17 +71,17 @@ export default function WorkPage() {
           </ul>
           Military Skills Highlight
           <ul>
-            <li>Weapon saftey</li>
+            <li>Weapon safety</li>
             <li>Security clearance</li>
             <li>Fair and precise judgement</li>
             <li>Good critical thinking skills</li>
-            <li>Self descipline under stress</li>
+            <li>Self discipline under stress</li>
           </ul>
         </p>
-        {/* <p>
+         <p>
           <strong>Alimar Security Supervisor/Guard</strong>
           <br></br>
-          Indinanapolis | Sep 2017-Jan 2019, Sep 2015-Dec 2016
+          Indianapolis | Sep 2017-Jan 2019, Sep 2015-Dec 2016
           <ui>
             <li>
               Provide outsourced security services for Fortune 500 companies
@@ -124,10 +120,10 @@ export default function WorkPage() {
             </li>
           </ui>
         </p>
-        <p>
+        {/* <p>
           <strong>CVS Supervisor</strong>
           <br></br>
-          Indinanapolis | Jan 2017-Sept 2017
+          Indianapolis | Jan 2017-Sept 2017
           <ui>
             <li>
               Daily supervision of 4 team members and responsible for 7 team
@@ -164,7 +160,7 @@ export default function WorkPage() {
         <p>
           <strong>Part and Full-Time Roles Concurrent with Military</strong>
           <br></br>
-          Indinanapolis | Sept 2013-Sept 2015
+          Indianapolis | Sept 2013-Sept 2015
           <ul>
             <li>
               Logistics - Full and part-time roles logistics/warehouse roles
