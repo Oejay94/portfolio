@@ -8,14 +8,13 @@ export default function JobPage() {
     <Card>
       <CardBody>
         <CardTitle>
-          <h3>Currently searching for a job!</h3>
+          <h3>Current Job</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: September 2020</CardSubtitle>
         <br></br>
         <p>
-          <b>Position:</b> Front-End Developer, Back-End Developer, Full Stack Developer, Jr.
-          Developer, React Developer, Python Developer, Django Developer
+          <b>Position:</b> Jr Instructor at Kenzie Acadmey
           <br></br>
           <b>Hours:</b> Full Time
           <br></br>

@@ -11,7 +11,7 @@ export default function WorkPage() {
           <h3>Work</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: April 2020</CardSubtitle>
         <br></br>
         <p>
           <strong>Coaching</strong>
