@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Nav";
 import ProgLang from "./ProgLang";
-import Projects from "./Projects";
 import Work from "./Work";
 import Education from "./Education";
 import Tech from "./Tech";
@@ -49,9 +48,6 @@ class Resume extends Component {
           </Card>
           <Card fluid className="WorkCard">
             <Work></Work>
-          </Card>
-          <Card fluid className="ProjectsCard">
-            <Projects></Projects>
           </Card>
           <Card fluid className="ProgLangCard">
             <ProgLang></ProgLang>

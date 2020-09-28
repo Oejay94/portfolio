@@ -11,7 +11,7 @@ export default function TechPage() {
           <h3>Technologies</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: March 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: September 2020</CardSubtitle>
         <br></br>
         <p>
           <ul>
@@ -25,6 +25,9 @@ export default function TechPage() {
             <li>Semantic UI Rect</li>
             <li>Shards React</li>
             <li>Heroku</li>
+            <li>Docker</li>
+            <li>Slack</li>
+            <li>Zoom</li>
           </ul>
         </p>
       </CardBody>

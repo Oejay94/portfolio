@@ -11,40 +11,107 @@ export default function WorkPage() {
           <h3>Work</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: April 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: September 2020</CardSubtitle>
         <br></br>
         <p>
-          <strong>Coaching</strong>
+          <strong>Jr. Software Engineer Instructor</strong>
           <br></br>
-          Kenzie Academy | Indianapolis | 06/2019-Present
+          Kenzie Academy | Indianapolis | 07/2020-Present
           <ul>
             <li>
-            Mentor students of newest cohorts on understanding the material in the school curriculum.
+              Worked on a team of 3 to instruct a chorot of 100 students across
+              the country.
             </li>
             <li>
-            Help guide students on best practices and techniques to accomplish requirements for the assessments with clean and readable code.
+              Cohort was divided into blocks, my block of students contained 55
+              out of the 100 students.
             </li>
             <li>
-            Worked both with in person and remote students with the same level of instructions and focus.
+              Primary focus was mentoring and guiding students over the topics
+              of HTML, CSS, Javascript, Node.js, React.js, the Terminal, and
+              Git/Github
+            </li>
+            <li>
+              Helped students overcome various technical issues in both Windows
+              and Mac OS
+            </li>
+            <li>
+              Provided demonstrations that covered topics that students were
+              struggling with the most.
+            </li>
+            <li>
+              Demonstrations were done either as 1 on 1 or in front of my entire
+              block of students.
+            </li>
+            <li>
+              Duties involved traditional education jobs including grading and
+              attendance
+            </li>
+            <li>
+              Received feedback from students and engaged in curriculum planning
+              for the coming weeks.
+            </li>
+          </ul>
+          <strong>Software Engineer Internship</strong>
+          <br></br>
+          Docket | Indianapolis | 06/2020-07/2020
+          <ul>
+            <li>
+              Collaborated with the full time Software Engineering team while
+              working entirely remote.
+            </li>
+            <li>
+              Primary focus was backend development using Node.js and Javascript
+            </li>
+            <li>
+              Created the process that allowed Docket to access Google Calendars
+              and add the link to a virtual meeting to the users meeting agenda.
+            </li>
+            <li>
+              By the end of the internship, Docket was able to grab links from
+              BlueJeans, GoToMeetings, Microsoft Teams, and more where as before
+              they were only able to grab Zoom and Google Hangout links.
+            </li>
+            <li>
+              Internship was done concurrent with Package Handler job and
+              Coaching job.
+            </li>
+          </ul>
+          <strong>Coaching</strong>
+          <br></br>
+          Kenzie Academy | Indianapolis | 06/2019-07/2020
+          <ul>
+            <li>
+              Mentor students of newest cohorts on understanding the material in
+              the school curriculum.
+            </li>
+            <li>
+              Help guide students on best practices and techniques to accomplish
+              requirements for the assessments with clean and readable code.
+            </li>
+            <li>
+              Worked both with in person and remote students with the same level
+              of instructions and focus.
             </li>
             <li>
               {" "}
-              Graded assessments submitted by the students in the cohort based on assessment requirements
+              Graded assessments submitted by the students in the cohort based
+              on assessment requirements
             </li>
           </ul>
         </p>
         <p>
           <strong>UPS Package Handler</strong>
           <br></br>
-          UPS Hub on 81st and Zionsville Rd, Indianapolis | 10/2019-Present
+          UPS Hub on 81st and Zionsville Rd, Indianapolis | 10/2019-07/2020
           <ul>
             <li>
               Worked in various trailer to load packages within said trailers in
               order to get the packages to their destination
             </li>
             <li>
-              Ability to adapt and overcome unforeseen obstacles during stressful
-              time and/or when high demands need to be met
+              Ability to adapt and overcome unforeseen obstacles during
+              stressful time and/or when high demands need to be met
             </li>
           </ul>
         </p>
@@ -78,11 +145,11 @@ export default function WorkPage() {
             <li>Self discipline under stress</li>
           </ul>
         </p>
-         <p>
+        <p>
           <strong>Alimar Security Supervisor/Guard</strong>
           <br></br>
           Indianapolis | Sep 2017-Jan 2019, Sep 2015-Dec 2016
-          <ui>
+          <ul>
             <li>
               Provide outsourced security services for Fortune 500 companies
               including CVS and Genuine Parts (NAPA)
@@ -118,7 +185,7 @@ export default function WorkPage() {
               coverage when needed, provided employee management support and
               On-Call 24x7
             </li>
-          </ui>
+          </ul>
         </p>
         {/* <p>
           <strong>CVS Supervisor</strong>

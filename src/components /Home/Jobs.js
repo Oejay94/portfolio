@@ -15,10 +15,6 @@ export default function JobPage() {
         <br></br>
         <p>
           <b>Position:</b> Jr Instructor at Kenzie Acadmey
-          <br></br>
-          <b>Hours:</b> Full Time
-          <br></br>
-          <b>Benefits:</b> 401k, good medical/health insurance, paid time off
         </p>
       </CardBody>
     </Card>

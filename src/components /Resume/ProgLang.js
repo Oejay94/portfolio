@@ -11,7 +11,7 @@ export default function ProgLangPage() {
           <h3>Programming Languages</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: September 2020</CardSubtitle>
         <br></br>
         <p>
           <ul>
@@ -19,6 +19,8 @@ export default function ProgLangPage() {
             <li>CSS3</li>
             <li>Javascript</li>
             <li>Python</li>
+            <li>C# (Self Study)</li>
+            <li>Ruby (Self Study)</li>
           </ul>
         </p>
       </CardBody>

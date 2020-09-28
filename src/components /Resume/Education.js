@@ -11,7 +11,7 @@ export default function EducationPage() {
           <h3>Education</h3>
         </CardTitle>
         <br></br>
-        <CardSubtitle>Last Updated: January 2020</CardSubtitle>
+        <CardSubtitle>Last Updated: April 2020</CardSubtitle>
         <br></br>
         <p>
           <b>Front-End Development Certification</b>
@@ -21,17 +21,12 @@ export default function EducationPage() {
         <p>
           <b>Back-End Development Certification</b>
           <br></br>
-          Kenzie Academy | 04/2020 *Currently Obtaining*
+          Kenzie Academy | 04/2020 
         </p>
         <p>
           <b>Full Stack Developer Certification</b>
           <br></br>
-          Kenzie Academy | 04/2020 *Currently Obtaining*
-        </p>
-        <p>
-          <b>Salesforce Business Admin Certification</b>
-          <br></br>
-          Salesforce | Online Portion Completed on 01/31/2020 | In Person Class Scheduled for 04/20-04/25 2020 | Exam Date TBD 
+          Kenzie Academy | 04/2020 
         </p>
       </CardBody>
     </Card>
