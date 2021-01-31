@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import { Home } from "./components";
 import { Resume } from "./components";
 import Footer from "./components/Misc/Footer";
@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <NavPage />
       <HeaderSection />
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/resume" component={Resume} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   );
