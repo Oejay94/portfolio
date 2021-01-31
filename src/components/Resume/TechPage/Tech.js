@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Icon } from "semantic-ui-react";
-import './tech.css'
+import "./tech.css";
 export default function TechPage() {
   return (
     <Card className="techSkills">
