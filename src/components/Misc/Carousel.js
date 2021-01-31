@@ -6,7 +6,7 @@ export default class Carousel extends React.Component {
   render() {
     return (
       <CarouselProvider
-        naturalSlideWidth={45}
+        naturalSlideWidth={50}
         naturalSlideHeight={13}
         totalSlides={3}
         isPlaying="true"
@@ -15,19 +15,19 @@ export default class Carousel extends React.Component {
         <Slider>
           <Slide index={0}>
             <Image
-              src={require("./images/DSC_0132.jpeg")}
-              style={{ display: "block", margin: "0 auto", width: "35%" }}
+              src={require("../images/DSC_0132.jpeg")}
+              style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
             </Slide>
             <Slide index={1}>
               <Image
-                src={require("./images/FEGraduationDaniel.jpeg")}
+                src={require("../images/FEGraduationDaniel.jpeg")}
                 style={{ display: "block", margin: "0 auto", width: "20%" }}
               />
             </Slide>
             <Slide index={2}>
               <Image
-                src={require("./images/FEGraduationChoc.jpeg")}
+                src={require("../images/FEGraduationChoc.jpeg")}
                 style={{ display: "block", margin: "0 auto", width: "20%" }}
               />
             </Slide>

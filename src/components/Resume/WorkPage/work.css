@@ -1,0 +1,31 @@
+ul {
+  display: inline-block;
+}
+.workDiv {
+  width: 350px;
+  overflow-wrap: break-word;
+}
+
+.workDiv li {
+  text-align: left;
+}
+
+.column {
+  position: relative;
+  width: 1400px;
+  left: 100px;
+}
+
+.column2 {
+  position: relative;
+  width: 1400px;
+  left: 650px;
+  top: -93%;
+}
+
+.column3 {
+  position: relative;
+  width: 1400px;
+  left: 70%;
+  top: -172%;
+}

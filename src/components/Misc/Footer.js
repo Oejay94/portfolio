@@ -1,11 +1,12 @@
 import React from "react";
 import { List, Icon, Grid, Header } from "semantic-ui-react";
+import './Footer.css';
 import "semantic-ui-css/semantic.min.css";
 
 export default class Footer extends React.Component {
   render() {
     return (
-      <Grid doubling columns="equal" divided inverted>
+      <Grid doubling columns="equal" divided inverted className='grid'>
         <Grid.Column color="black" textAlign="center">
           <Header as="h4" inverted content="Reach Out!" />
           <p>
