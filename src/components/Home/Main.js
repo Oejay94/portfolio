@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import About from "./About/About";
-import Jobs from "./Jobs/Jobs";
+import ProjectPage from './Projects/projects'
 import { Card } from "semantic-ui-react";
+import './Main.css';
 import "semantic-ui-css/semantic.min.css";
 
 class Home extends Component {
@@ -12,8 +13,8 @@ class Home extends Component {
           <Card fluid className="AboutCard">
             <About />
           </Card>
-          <Card fluid className="JobsCard">
-            <Jobs />
+          <Card fluid className="ProjectCard">
+           <ProjectPage />
           </Card>
         </Card.Group>
         <br></br>

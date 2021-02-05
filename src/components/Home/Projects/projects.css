@@ -1,0 +1,29 @@
+.todoCard {
+    width: 30rem;
+}
+
+.todoImage {
+    height: 25rem;
+}
+
+.dirWatcherCard {
+    width: 30rem;
+    position: relative;
+    left: 39%;
+    top: -89.5%;
+}
+
+.dirWatcherImage {
+    height: 25rem;
+}
+
+.consoleCalculatorCard{
+    width: 30rem;
+    position: relative;
+    left: 77%;
+    top: -179.4%;
+}
+
+.cSharpImage {
+    height: 25rem;
+}
