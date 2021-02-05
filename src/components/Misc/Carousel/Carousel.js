@@ -11,36 +11,36 @@ export default class Carousel extends React.Component {
         infinite='true'
         totalSlides={5}
         isPlaying="true"
-        interval={3000}
+        interval={2000}
       >
         <Slider>
         <Slide index={0}>
             <Image
-              src={require("../images/DSC_0132.jpeg")}
+              src={require("../../images/DSC_0132.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
             </Slide>
         <Slide index={1}>
             <Image
-              src={require("../images/FrontEndCert.jpeg")}
+              src={require("../../images/FrontEndCert.jpeg")}
               style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
             </Slide>
             <Slide index={2}>
             <Image
-              src={require("../images/FullStackCertification.png")}
+              src={require("../../images/FullStackCertification.png")}
               style={{ display: "block", margin: "0 auto", width: "30%" }}
             />
             </Slide>
             <Slide index={3}>
               <Image
-                src={require("../images/FEGraduationDaniel.jpeg")}
+                src={require("../../images/FEGraduationDaniel.jpeg")}
                 style={{ display: "block", margin: "0 auto", width: "20%" }}
               />
             </Slide>
             <Slide index={4}>
               <Image
-                src={require("../images/FEGraduationChoc.jpeg")}
+                src={require("../../images/FEGraduationChoc.jpeg")}
                 style={{ display: "block", margin: "0 auto", width: "20%" }}
               />
             </Slide>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import About from "./About";
-import Jobs from "./Jobs";
+import About from "./About/About";
+import Jobs from "./Jobs/Jobs";
 import { Card } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 

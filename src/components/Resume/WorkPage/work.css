@@ -8,6 +8,7 @@ ul {
 
 .workDiv li {
   text-align: left;
+  font-size: medium;
 }
 
 .column {
@@ -19,13 +20,13 @@ ul {
 .column2 {
   position: relative;
   width: 1400px;
-  left: 650px;
-  top: -93%;
+  left: 675px ;
+  top: -92.5%;
 }
 
 .column3 {
   position: relative;
   width: 1400px;
   left: 70%;
-  top: -172%;
+  top: -167%;
 }

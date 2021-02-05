@@ -9,7 +9,7 @@ export default function TechPage() {
       <Card.Body>
         <Card.Text as="h4">
           <div className="row">
-            <div className="column">
+            <div className="techColumn1">
               React.js <Icon name="react" />
               <br />
               <br />
@@ -32,25 +32,25 @@ export default function TechPage() {
               <br />
               <br />
             </div>
-            <div className="column">
-              Heroku <Icon name="upload" />
-              <br />
-              <br />
-              Docker <Icon name="docker" />
-              <br />
-              <br />
-              Git <Icon name="git square" />
-              <br />
-              <br />
-              Github <Icon name="github square" />
-              <br />
-              <br />
-              Slack <Icon name="slack" />
-              <br />
-              <br />
-              Zoom <Icon name="video" />
+            <div className="techColumn2">
+                Heroku <Icon name="upload" />
+                <br />
+                <br />
+                Docker <Icon name="docker" />
+                <br />
+                <br />
+                Git <Icon name="git square" />
+                <br />
+                <br />
+                Github <Icon name="github square" />
+                <br />
+                <br />
+                Slack <Icon name="slack" />
+                <br />
+                <br />
+                Zoom <Icon name="video" />
+              </div>
             </div>
-          </div>
         </Card.Text>
       </Card.Body>
     </Card>

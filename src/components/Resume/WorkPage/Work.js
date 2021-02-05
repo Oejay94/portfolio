@@ -6,14 +6,23 @@ import "./work.css";
 function WorkPage() {
   return (
     <>
-    <Card.Header as="h3">Work</Card.Header>
-      <CardColumns className='column'>
+      <Card.Header as="h3">Work</Card.Header>
+      <CardColumns className="column">
         <Card>
           <Card.Body>
-            <Card.Title>Jr. Software Engineer Instructor</Card.Title>
+            <Card.Title>
+              <a
+                href="https://www.kenzie.academy/community/team-kenzie/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jr. Software Engineer Instructor
+              </a>
+            </Card.Title>
             <Card.Subtitle>
               Kenzie Academy | Indianapolis | 07/2020-Present
             </Card.Subtitle>
+            <br />
             <Card.Text>
               <ul>
                 <div className="workDiv">
@@ -53,13 +62,22 @@ function WorkPage() {
           </Card.Body>
         </Card>
       </CardColumns>
-      <CardColumns className='column2'>
+      <CardColumns className="column2">
         <Card>
           <Card.Body>
-            <Card.Title>Software Engineer Internship</Card.Title>
+            <Card.Title>
+              <a
+                href="https://www.dockethq.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Software Engineer Internship
+              </a>
+            </Card.Title>
             <Card.Subtitle>
               Docket | Indianapolis | 06/2020-07/2020
             </Card.Subtitle>
+            <br />
             <Card.Text>
               <ul>
                 <div className="workDiv">
@@ -92,14 +110,23 @@ function WorkPage() {
           </Card.Body>
         </Card>
       </CardColumns>
-      <CardColumns className='column3'>
+      <CardColumns className="column3">
         <Card>
           <Card.Body>
-            <Card.Title>Software Engineer Coach</Card.Title>
+            <Card.Title>
+              <a
+                href="https://www.kenzie.academy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Software Engineer Coach
+              </a>
+            </Card.Title>
 
             <Card.Subtitle>
               Kenzie Academy | Indianapolis | 06/2019-07/2020
             </Card.Subtitle>
+            <br />
 
             <Card.Text>
               <ul>

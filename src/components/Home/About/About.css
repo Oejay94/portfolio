@@ -1,0 +1,10 @@
+.aboutPageCard {
+    position: relative;
+    left: 35%;
+    display: inline-block;
+    width: 600px;
+}
+
+.aboutCardText {
+    font-size: medium;
+}

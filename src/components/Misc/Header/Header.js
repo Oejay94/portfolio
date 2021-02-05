@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel";
+import Carousel from "../Carousel/Carousel";
 import { Header, Divider, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
