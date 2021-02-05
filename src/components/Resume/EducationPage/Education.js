@@ -12,7 +12,7 @@ function EducationPage() {
           Kenzie Academy | 10/2019
           <br></br>
           <br></br>
-          Full Stack Developer Certification
+          Full-Stack Development Certification
           <br></br>
           Kenzie Academy | 04/2020
         </Card.Text>

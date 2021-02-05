@@ -101,8 +101,8 @@ function WorkPage() {
                     Hangout links.
                   </li>
                   <li>
-                    Internship was done concurrent with Package Handling job at
-                    UPS and Coaching job.
+                    Internship was done concurrent with a Package Handling job
+                    at UPS and a Coaching job at Kenzie Academy.
                   </li>
                 </div>
               </ul>
@@ -132,24 +132,24 @@ function WorkPage() {
               <ul>
                 <div className="workDiv">
                   <li>
-                    Mentor students of newest cohorts on understanding the
-                    material in the school curriculum.
+                    Mentored students from the latest cohort on understanding
+                    the material in the school curriculum.
                   </li>
 
                   <li>
-                    Help guide students on best practices and techniques to
+                    Guided students on best practices and techniques to
                     accomplish requirements for the assessments with clean and
                     readable code.
                   </li>
 
                   <li>
-                    Worked both with in person and remote students with the same
+                    Worked with in person and remote students with the same
                     level of instructions and focus.
                   </li>
 
                   <li>
-                    Graded assessments submitted by the students in the cohort
-                    based on assessment requirements
+                    Graded assessments submitted by the students based on
+                    assessment requirements
                   </li>
                 </div>
               </ul>
