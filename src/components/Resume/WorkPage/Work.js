@@ -27,7 +27,7 @@ function WorkPage() {
               <ul>
                 <div className="workDiv">
                   <li>
-                    Worked on a team of 3 to instruct a chorot of 100 students
+                    Worked on a team of 3 to instruct a cohort of 100 students
                     across the country.
                   </li>
                   <li>
