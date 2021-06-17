@@ -1,24 +1,22 @@
 import React, { Component } from "react";
 import About from "./About/About";
-import ProjectPage from './Projects/projects'
+import ProjectPage from "./Projects/projects";
 import { Card } from "semantic-ui-react";
-import './Main.css';
+import "./Main.css";
 import "semantic-ui-css/semantic.min.css";
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Card.Group className="MainCardGroup">
-          <Card fluid className="AboutCard">
+          <Card fluid className="HomeCard">
             <About />
           </Card>
-          <Card fluid className="ProjectCard">
-           <ProjectPage />
+          <Card fluid className="HomeCard">
+            <ProjectPage />
           </Card>
-        </Card.Group>
-        <br></br>
-        <br></br>
+          <br></br>
+          <br></br>
       </React.Fragment>
     );
   }
