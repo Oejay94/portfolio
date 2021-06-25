@@ -1,7 +1,21 @@
+@media (max-height: 1200px) {
+    .consoleCalculatorCard {
+        height: 100%;
+    }
+    
+    .cSharpImage {
+        height: 85%;
+    }
+}
+
+
+@media (min-height: 640px) {
+
 .consoleCalculatorCard {
     height: 100%;
 }
 
 .cSharpImage {
-    min-height: 85%;
+    height: 65%;
+} 
 }

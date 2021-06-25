@@ -1,7 +1,19 @@
-.dirWatcherCard{
-    height: 100%;
+@media (max-height: 1200px){
+    .dirWatcherCard{
+        height: 100%;
+    }
+
+    .dirWatcherImage {
+        height: 85%;
+    }
 }
 
-.dirWatcherImage {
-    min-height: 85%;
+@media (min-height: 640px){
+    .dirWatcherCard{
+        height: 100%;
+    }
+
+    .dirWatcherImage {
+        height: 65%;
+    }
 }
