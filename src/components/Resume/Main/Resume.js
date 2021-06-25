@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import ProgLang from "./ProgLang/ProgLang";
-import Work from "./WorkPage/Work";
-import Education from "./EducationPage/Education";
-import Tech from "./TechPage/Tech";
+import LangStack from "../ProgLang/LangStack";
+import Education from "../EducationPage/Education";
+import TechStack from "../TechPage/TechStack";
+import MainWorkCard from "../WorkPage/Main/MainWorkCard";
 import { Card } from "semantic-ui-react";
-import './Main.css'
-import "semantic-ui-css/semantic.min.css";
 
 class Resume extends Component {
   render() {
@@ -15,14 +13,14 @@ class Resume extends Component {
           <Card fluid className="EducationCard">
             <Education />
           </Card>
-          <Card fluid className="WorkCard">
-            <Work />
+          <Card fluid>
+            <MainWorkCard />
           </Card>
           <Card fluid className="ProgLangCard">
-            <ProgLang />
+            <LangStack />
           </Card>
           <Card fluid className="TechCard">
-            <Tech />
+            <TechStack />
           </Card>
         </Card.Group>
         <br></br>

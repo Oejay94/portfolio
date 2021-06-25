@@ -6,7 +6,7 @@ import Footer from "./components/Misc/Footer/Footer";
 import NavPage from "./components/Misc/NavBar/NavBar";
 import HeaderSection from "./components/Misc/Header/Header";
 import "semantic-ui-css/semantic.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App() {
